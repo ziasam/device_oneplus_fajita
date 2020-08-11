@@ -24,4 +24,6 @@
          4 = FOD
     -->
     <integer name="config_fingerprintSensorLocation">4</integer>
+    <!-- Whether device has screen off FOD support -->
+    <bool name="config_supportScreenOffFod">true</bool>
 </resources>
