@@ -41,4 +41,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 KANGOS_BUILDTYPE := OFFICIAL
 USE_GAPPS := true
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys
+PRODUCT_PRODUCT_PROPERTIES += \
+ ro.kangos.maintainer=Ziauddin-Sameer
+ ro.kangos.cpu=sdm845
+
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys
+TARGET_INCLUDE_AOSP_REPLACEMENT := true
